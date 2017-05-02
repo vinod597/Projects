@@ -1,0 +1,27 @@
+
+/* Added By UI Team */
+#loginHeaderImage{margin:0 auto; width:536px;}
+#loginContainer{
+	background-color:white;
+	border-radius:15px;
+	width: 650px; 
+	margin:0 auto;
+	border: 2px solid rgb(181, 103, 26);
+}
+#errorMessage{padding-left:60px; padding-bottom:10px;}
+.content{padding-left:40px;}
+.signin{margin-top: 20px; padding-bottom:40px; padding-left:180px;cursor: pointer;}
+.headerbgground{background-color:#121212;width:98%;color:#FFFFFF;font-size:22px; text-align:left; padding-left:20px; font-weight:bold; height:45px;border-radius:4px;}
+.bgcolorblack{background-color:#F8F8F8 ; height:750px; border-radius: 5px;}
+.headerbgground300x35{border:solid 1px #288D4C;background-color:#121212;height:35px;width:300px;color:#FFFFFF;font-size:22px; padding-top:6px; text-align:center; font-weight:bold;}
+.bgcolorblackdiv{background-color:#323432;width:100%; }
+.FL{float:left;}
+.FR{float:right;}
+.btnpadding{margin-top:20px;padding-bottom:10px;}
+.txtcontrolwidth{width:250px;}
+
+/* jqgrid */
+.cbox {border:none; margin: 2px;}
+tr.jqgrow>td.textInDiv>div {
+    max-height: 5px;
+}

@@ -1,0 +1,124 @@
+.spinner {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+.wrapper{
+	width:920px;
+	min-height:100%;
+	padding:0 20px;
+	margin:0 auto;		
+	overflow-y:auto;
+	overflow-x:hidden;
+	background:#fdfdfd;
+
+	border-top:none;
+	border-bottom:none;
+	background-color:#343434;
+}
+.dialogStyle.ui-dialog {
+    font-size: 100%;
+ #background-color: red;
+}
+.confirmdialogStyle.ui-dialog {
+    font-size: 100%;
+    width:900px;
+    height:200px;
+ #background-color: red;
+}
+
+.label1{
+	display: inline-block;
+	min-width: 50px;
+	color: #000;
+	font: bold 12px Arial;
+	padding:10px 10px 10px 0px;
+}
+
+.popupBtnsHolder {
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.ContentHolder {
+	width: 100%;
+}
+
+.formElements {
+	padding: 0 20px;
+}
+
+
+label {
+	display: inline-block;
+	min-width: 50px;
+	color: #000;
+}
+.label {
+	font: bold 12px Arial;
+	width: 120px;
+}
+
+.checkbox {
+	border:0; margin:0; padding:0;text-align:left; width:13px;
+}
+.btn,.btnDark {
+	border: solid 1px #bbb;
+	background: #FFF;
+	color: #646464;
+	text-align: center;
+	padding: 8px 15px;
+	margin-left: 8px;
+	min-width: 78px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.btnDark {
+	border: solid 1px #7a7a7a;
+	background: #FFCC33;
+	color: #000000;
+}
+
+.btn:hover,.btnDark:hover {
+	color: #FFF;
+	background: #0099DA;
+	border-color: #0099DA;
+}
+
+input,textarea,select {
+	width: 164px;
+	color: #646464;
+	padding: 4px;
+	margin: 0 4px 8px 0;
+	border: solid 1px #DDD;
+	box-shadow: 0 0 5px #333;
+}
+
+textarea {
+	width: 366px;
+	height: 52px;
+	overflow: auto;
+	resize: none;
+}
+.btnYes,.btnNo {
+	min-width: 58px;
+}
+
+.btnsHolder {
+	margin: 40px 0;
+	overflow: hidden;
+}
+
+.btnsHolder .btn {
+	float: left;
+}
+.btnpadding{margin-top:20px;padding-bottom:10px;}
